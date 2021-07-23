@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Roboto:wght@100&display=swap");
+:root {
+  --main-bg-color: rgb(236, 102, 102);
+  --font1: "Baloo Tammudu 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+.center {
+  text-align: center;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.my-2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.mx-1 {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.btn {
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: var(--font1);
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+.form-input {
+  padding: 0px 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: var(--font1);
+}
+.form-box input,
+textarea {
+  width: 60vw;
+  padding: 0px 7px;
+  margin: 3px 0;
+  font-size: 18px;
+  font-family: var(--font1);
+  border-radius: 10px;
+  border: 2px solid var(--main-bg-color);
+}
+.font-size {
+}
